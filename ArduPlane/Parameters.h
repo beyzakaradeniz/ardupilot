@@ -36,11 +36,12 @@ public:
     // COMMENTS ABOVE. IF UNSURE, ASK ANOTHER DEVELOPER!!!
     static const uint16_t k_format_version = 13;
     //////////////////////////////////////////////////////////////////
-
+    AP_Int8 customx;
 
     enum {
         // Layout version number, always key zero.
         //
+        k_param_customx,
         k_param_format_version = 0,
         k_param_software_type, // unused;
         k_param_num_resets,
